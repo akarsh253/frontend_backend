@@ -1,0 +1,12 @@
+process.env.NODE_ENV = 'test';
+process.env.MONGODB_URI = 'mongodb://localhost:27017/mentor_startup_test';
+process.env.JWT_ACCESS_SECRET = 'test_access_secret_key_for_testing_only';
+process.env.JWT_REFRESH_SECRET = 'test_refresh_secret_key_for_testing_only';
+process.env.JWT_ACCESS_EXPIRES_IN = '15m';
+process.env.JWT_REFRESH_EXPIRES_IN = '7d';
+process.env.BCRYPT_ROUNDS = '4'; // Fast hashing for tests
+process.env.FRONTEND_URL = 'http://localhost:3000';
+process.env.EMAIL_HOST = 'smtp.test.com';
+process.env.EMAIL_PORT = '587';
+process.env.EMAIL_USER = 'test@test.com';
+process.env.EMAIL_PASS = 'testpassword';
